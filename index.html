@@ -1,0 +1,768 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/social-icons.css">
+	<link rel="stylesheet" type="text/css" href="css/navigation-icons.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+	<title>Grass Demo versION</title>
+</head>
+
+<body>
+
+<header class="d-header">
+
+	<div class="d-topbar">
+		<div class="wrapper">
+			<div class="live-help">
+				<i class="fa fa-headphones"></i><strong>Live Help: </strong>
+				<span class="code">06.5490732</span>
+			</div>
+			<div class="topbar-social">
+				<span class="topbar-location">
+					<i class="fa fa-map-marker"></i>
+					 20 Green Farm, New Zealand
+				</span>
+				<span class="topbar-worktime">
+					<i class="far fa-clock"></i>
+					 Monday -  Sunday: 7.AM - 5.PM
+				</span>			
+			</div>
+			<div class="topbar-account">
+				<ul class="my-account">
+					<!-- <li><a href="#elements" id="toc-elements">Elements</a></li> -->
+					<li>
+						<i class="fas fa-user"></i><a href="#" class="text">My Account</a>
+						<ul class="topbar-account-dropdown">
+							<li><a href="#">Login</a></li>
+							<li><a href="#">Cart</a></li>
+						</ul>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+
+	<div class="d-nav">
+			<div class="wrapper">
+				<div class="nav-logo">
+					<a href="#"><img src="images/grassy-logo.png" alt="Grassy"></a>
+				</div>
+
+				<nav class="navigation">
+					<ul>
+						<li><a href="#">Home</a>
+						<ul>
+							<li><a href="#">Home Default</a></li>
+							<li><a href="#">Home 02</a></li>
+							<li><a href="#">Home 03</a></li>
+						</ul></li>
+					</ul>
+					<ul>
+						<li>
+							<a href="#">Pages</a>
+							<ul>
+								<li><a href="#">About</a></li>
+								<li><a href="#">Contact</a></li>
+								<li><a href="#">Services</a>
+									<ul>
+										<li><a href="#">Services List</a></li>
+										<li><a href="#">Services Single</a></li>
+									</ul>
+								</li>
+								<li><a href="#">Teams</a>
+									<ul>
+										<li><a href="#">Teams List</a></li>
+										<li><a href="#">Teams Single</a></li>
+									</ul>
+								</li>
+								<li><a href="#">Coming Soon</a></li>
+								<li><a href="#">Page 404</a></li>
+								<li><a href="#">Page FAQ</a></li>
+							</ul>
+						</li>
+					</ul>
+					<ul>
+						<li><a href="#">Gallery</a>
+							<ul>
+								<li><a href="#">Gallery Default</a></li>
+								<li><a href="#">Gallery 3 Columns</a>
+									<ul>
+										<li><a href="#">Gallery v.2</a></li>
+										<li><a href="#">Gallery v.3</a></li>
+										<li><a href="#">Gallery v.4</a></li>
+									</ul>
+								</li>
+								<li><a href="#">Gallery 4 Columns</a>
+									<ul>
+										<li><a href="#">Gallery v.5</a></li>
+										<li><a href="#">Gallery v.6</a></li>
+										<li><a href="#">Gallery v.7</a></li>
+									</ul>
+								</li>
+							</ul>
+						</li>
+					</ul>
+					<ul>
+						<li><a href="#">Blog</a>
+							<ul>
+								<li><a href="#">Blog Classic</a></li>
+								<li><a href="#">Blog Classic</a></li>
+								<li><a href="#">Blog Sidebar Left</a></li>
+								<li><a href="#">Blog Single</a></li>
+								<li><a href="#">Blog Single Sidebar Left</a></li>
+							</ul>
+							<ul>
+								<li><a href="#">Blog List</a></li>
+								<li><a href="#">Blog 2 Columns Sidebar Right</a></li>
+								<li><a href="#">Blog 2 Columns Sidebar Left</a></li>
+								<li><a href="#">Blog 3 Columns</a></li>
+								<li><a href="#">Blog 4 Columns</a></li>
+							</ul>
+							<ul>
+								<li><a href="#">Blog Single</a></li>
+								<li><a href="#">Blog Format Audio</a></li>
+								<li><a href="#">Blog Format Gallery</a></li>
+								<li><a href="#">Blog Format Quote</a></li>
+								<li><a href="#">Blog Format Video</a></li>
+							</ul>
+							<ul>
+								<li><a href="#">Blog Single Layout</a></li>
+								<li><a href="#">Blog Layout 1</a></li>
+								<li><a href="#">Blog Layout 2</a></li>
+								<li><a href="#">Blog Layout 3</a></li>
+								<li><a href="#">Blog Layout 4</a></li>
+								<li><a href="#">Blog Layout 5</a></li>
+							</ul>
+						</li>
+					</ul>
+					<ul>
+						<li><a href="#">Project</a>
+							<ul>
+								<li><a href="#">Project Tab Masonry</a></li>
+								<li><a href="#">Project Grid 3 Columns</a></li>
+								<li><a href="#">Project Grid 4 Columns</a></li>
+								<li><a href="#">Project Single</a></li>
+							</ul>
+						</li>
+					</ul>
+					<ul>
+						<li id="elements"><a href="#">Elements</a>
+							<ul>
+								<li><span class="element-icon icon-user"></span><a href="#">Feature 01</a></li>
+								<li><span class="element-icon icon-arrow-r"></span><a href="#">SC About Me</a></li>
+								<li><span class="element-icon icon-arrows"></span><a href="#">SC Accordion</a></li>
+								<li><a href="#">SC Button</a></li>
+								<li><a href="#">SC Category – Tags</a></li>
+								<li><a href="#">SC Contact</a></li>
+								<li><a href="#">SC Counter</a></li>
+								<li><a href="#">SC Count Down</a></li>
+								<li><a href="#">SC Featured List</a></li>
+							</ul>
+							<ul>
+								<li><a href="#">Feature 02</a></li>
+								<li><a href="#">SC Gallery Carousel</a></li>
+								<li><a href="#">SC Icons Block</a></li>
+								<li><a href="#">SC Image</a></li>
+								<li><a href="#">SC Image Carousel</a></li>
+								<li><a href="#">SC Instagram</a></li>
+								<li><a href="#">SC Isotope</a></li>
+								<li><a href="#">SC Item List</a></li>
+								<li><a href="#">SC Main Title</a></li>
+							</ul>
+						</li>
+					</ul>
+					<ul>
+						<li><a href="#">Shop</a></li>
+					</ul>
+				</nav>
+
+				<div class="search">
+					<a href="#"><div class="search-icon"><i class="fas fa-search"></i></div></a>
+					<form action="#" method="get">
+						<fieldset>
+							<legend>Search Box</legend>
+							<label for="search">Search</label>
+							<input type="search" name="search" id="search" placeholder="Search...">
+							<button type="submit">
+								<i class="fas fa-search"></i>
+							</button>
+						</fieldset>
+						
+					</form>
+				</div>
+			</div>
+	</div>
+
+</header>
+
+<main>
+
+<div class="main-slider">
+	<div class="wrapper">
+		<header>
+			<p class="p-first">Make your garden be green with</p>
+			<h1>Grass Gardening Service</h1>
+			<p class="p-second">gdf dfg dfh fd hgfh dfjhj ghd asd asdfh fh dadsfsd fssd asdas das a asfsd  das dasffghd asd sdf <br> sdfh f saddasd asf h gd asdjdghj gr asd assreajy dh gjdfhfg hfhd</p>
+		</header>
+		<div class="call-to-action">
+			<a href="#">
+				<div class="cta-btn read-more">
+					<span>Read More</span>
+				</div>
+			</a>
+			<a href="#">
+				<div class="cta-btn contact-us">
+					<span>Contact Us</span>
+				</div>
+			</a>
+		</div>
+	</div>
+</div>
+
+<article class="welcome-info">
+	<div class="wrapper">
+		<aside class="grass-owner">
+			<img src="photos/Lara-Crostina.png" alt="Lara-Crostina">
+			<div class="grass-owner-info">
+				<h2>Lara Crostina</h2>
+				<h3>Grass Owner</h3>
+				<p>Hi everyone, i hope you will like our gardening service and gardener.</p>
+				<div class="socials">
+					<span class="facebook-sign soc-sign"></span>
+					<span class="twitter-sign soc-sign"></span>
+					<span class="pinterest-sign soc-sign"></span>
+					<span class="google-plus-sign soc-sign"></span>
+				</div>
+			</div>
+		</aside>
+		<div class="content">
+			<header>
+				<h2>Welcome to grass company</h2>
+				<h3>Some Word About Us</h3>
+				<p>Have you ever finally just gave in to the temptation and read your horoscope line in the newspaper on Sunday morning? Sure, we all have. For most of us, it’s a curiosity, an amusement to see what they say our day will be like based on the sign of the zodiac that we were born under.</p>
+			</header>
+			<div class="service-binder">
+				<div class="service serv-01">
+					<div class="service-img"><img src="photos/service-01.jpg" alt="Service 1 Name"></div>
+					<h3><a href="#">Flower Decoration</a></h3>
+					<p>There is a moment in the life of any aspiring astronomer an that it is time to buy that first telescope.</p>
+					<a class="read-more" href="#">> Read More</a>
+				</div>
+			</div>
+		</div>
+	</div>
+</article>
+
+<article class="our-project">
+	<div class="wrapper">
+		<header>
+			<h2>Our Completed Project</h2>
+			<h3>Featured Works</h3>
+		</header>
+		<div class="categories-wrapper">
+			<ul class="categories">
+				<li><a class="active-project-work" href="#">Design Plant</a></li>
+				<li><a href="#">Flowerscaping</a></li>
+				<li><a href="#">Lawn Care</a></li>
+				<li><a href="#">Snow Plowing</a></li>
+				<li><a href="#">Stone Decorate</a></li>
+			</ul>
+		</div>
+
+		<div class="category active">
+			<div class="figures">
+				<figure class="item">
+					<img src="photos/service-01-800x600.jpg" alt="Service 1 name">
+					<figcaption>Watering new environment</figcaption>
+				</figure>
+				<figure class="item">
+					<img src="photos/service-01-800x600.jpg" alt="Service 1 name">
+					<figcaption>Watering new environment</figcaption>
+				</figure>
+				<figure class="item">
+					<img src="photos/service-01-800x600.jpg" alt="Service 1 name">
+					<figcaption>Watering new environment</figcaption>
+				</figure>
+				<figure class="item">
+					<img src="photos/service-01-800x600.jpg" alt="Service 1 name">
+					<figcaption>Watering new environment</figcaption>
+				</figure>
+				<figure class="item">
+					<img src="photos/service-01-800x600.jpg" alt="Service 1 name">
+					<figcaption>Watering new environment</figcaption>
+				</figure>
+				<figure class="item">
+					<img src="photos/service-01-800x600.jpg" alt="Service 1 name">
+					<figcaption>Watering new environment</figcaption>
+				</figure>
+			</div>
+			<div class="full-project"><a href="#">Full Project</a></div>
+		</div>
+
+		<div class="category">
+			<div class="figures">
+				<figure class="item">
+					<img src="photos/service-01-800x600.jpg" alt="Service 1 name">
+					<figcaption>Watering new environment</figcaption>
+				</figure>
+				<figure class="item">
+					<img src="photos/service-01-800x600.jpg" alt="Service 1 name">
+					<figcaption>Watering new environment</figcaption>
+				</figure>
+				<figure class="item">
+					<img src="photos/service-01-800x600.jpg" alt="Service 1 name">
+					<figcaption>Watering new environment</figcaption>
+				</figure>
+				<figure class="item">
+					<img src="photos/service-01-800x600.jpg" alt="Service 1 name">
+					<figcaption>Watering new environment</figcaption>
+				</figure>
+				<figure class="item">
+					<img src="photos/service-01-800x600.jpg" alt="Service 1 name">
+					<figcaption>Watering new environment</figcaption>
+				</figure>
+				<figure class="item">
+					<img src="photos/service-01-800x600.jpg" alt="Service 1 name">
+					<figcaption>Watering new environment</figcaption>
+				</figure>
+			</div>
+			<div class="full-project"><a href="#">Full Project</a></div>
+		</div>
+
+		<div class="category">
+			<div class="figures">
+				<figure class="item">
+					<img src="photos/service-01-800x600.jpg" alt="Service 1 name">
+					<figcaption>Watering new environment</figcaption>
+				</figure>
+				<figure class="item">
+					<img src="photos/service-01-800x600.jpg" alt="Service 1 name">
+					<figcaption>Watering new environment</figcaption>
+				</figure>
+				<figure class="item">
+					<img src="photos/service-01-800x600.jpg" alt="Service 1 name">
+					<figcaption>Watering new environment</figcaption>
+				</figure>
+				<figure class="item">
+					<img src="photos/service-01-800x600.jpg" alt="Service 1 name">
+					<figcaption>Watering new environment</figcaption>
+				</figure>
+				<figure class="item">
+					<img src="photos/service-01-800x600.jpg" alt="Service 1 name">
+					<figcaption>Watering new environment</figcaption>
+				</figure>
+				<figure class="item">
+					<img src="photos/service-01-800x600.jpg" alt="Service 1 name">
+					<figcaption>Watering new environment</figcaption>
+				</figure>
+			</div>
+			<div class="full-project"><a href="#">Full Project</a></div>
+		</div>
+
+		<div class="category">
+			<div class="figures">
+				<figure class="item">
+					<img src="photos/service-01-800x600.jpg" alt="Service 1 name">
+					<figcaption>Watering new environment</figcaption>
+				</figure>
+				<figure class="item">
+					<img src="photos/service-01-800x600.jpg" alt="Service 1 name">
+					<figcaption>Watering new environment</figcaption>
+				</figure>
+				<figure class="item">
+					<img src="photos/service-01-800x600.jpg" alt="Service 1 name">
+					<figcaption>Watering new environment</figcaption>
+				</figure>
+				<figure class="item">
+					<img src="photos/service-01-800x600.jpg" alt="Service 1 name">
+					<figcaption>Watering new environment</figcaption>
+				</figure>
+				<figure class="item">
+					<img src="photos/service-01-800x600.jpg" alt="Service 1 name">
+					<figcaption>Watering new environment</figcaption>
+				</figure>
+				<figure class="item">
+					<img src="photos/service-01-800x600.jpg" alt="Service 1 name">
+					<figcaption>Watering new environment</figcaption>
+				</figure>
+			</div>
+			<div class="full-project"><a href="#">Full Project</a></div>
+		</div>
+
+		<div class="category">
+			<div class="figures">
+				<figure class="item">
+					<img src="photos/service-01-800x600.jpg" alt="Service 1 name">
+					<figcaption>Watering new environment</figcaption>
+				</figure>
+				<figure class="item">
+					<img src="photos/service-01-800x600.jpg" alt="Service 1 name">
+					<figcaption>Watering new environment</figcaption>
+				</figure>
+				<figure class="item">
+					<img src="photos/service-01-800x600.jpg" alt="Service 1 name">
+					<figcaption>Watering new environment</figcaption>
+				</figure>
+				<figure class="item">
+					<img src="photos/service-01-800x600.jpg" alt="Service 1 name">
+					<figcaption>Watering new environment</figcaption>
+				</figure>
+				<figure class="item">
+					<img src="photos/service-01-800x600.jpg" alt="Service 1 name">
+					<figcaption>Watering new environment</figcaption>
+				</figure>
+				<figure class="item">
+					<img src="photos/service-01-800x600.jpg" alt="Service 1 name">
+					<figcaption>Watering new environment</figcaption>
+				</figure>
+			</div>
+			<div class="full-project"><a href="#">Full Project</a></div>
+		</div>
+	</div>
+</article>
+
+<article class="garden-store">
+	<div class="wrapper">
+		<header>
+			<h2>Grass Garden Store</h2>
+			<h3>Our Product</h3>
+		</header>
+		<div class="garden-products">
+			<div class="g-product">
+				<div class="content">
+					<figure>
+						<img src="photos/garden-store/Product-1.png" alt="product-1">
+						<figcaption>Short Rolled Fork</figcaption>
+					</figure>
+					<p class="price">£ 9.00</p>
+				</div>
+				<div class="abs">
+					<a href="#"><i class="fas fa-link"></i></a>
+					<a href="#"><i class="fas fa-shopping-basket"></i></a>
+				</div>
+			</div>
+			<div class="g-product">
+				<div class="content">
+					<figure>
+						<img src="photos/garden-store/Product-1.png" alt="product-1">
+						<figcaption>Short Rolled Fork</figcaption>
+					</figure>
+					<p class="rating">
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+					</p>
+					<p class="price">£ 20.00</p>
+				</div>
+				<div class="abs">
+					<a href="#"><i class="fas fa-link"></i></a>
+					<a href="#"><i class="fas fa-shopping-basket"></i></a>
+				</div>
+			</div>
+			<div class="g-product">
+				<div class="content">
+					<figure>
+						<img src="photos/garden-store/Product-1.png" alt="product-1">
+						<figcaption>Short Rolled Fork</figcaption>
+					</figure>
+					<p class="rating-3">
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+						<i class="far fa-star"></i>
+						<i class="far fa-star"></i>
+					</p>
+					<p class="price">£ 11.00</p>
+				</div>
+				<div class="abs">
+					<a href="#"><i class="fas fa-link"></i></a>
+					<a href="#"><i class="fas fa-shopping-basket"></i></a>
+				</div>
+			</div>
+			<div class="g-product">
+				<div class="content">
+					<figure>
+						<img src="photos/garden-store/Product-1.png" alt="product-1">
+						<figcaption>Short Rolled Fork</figcaption>
+					</figure>
+					<p class="rating-4">
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+						<i class="far fa-star"></i>
+					</p>
+					<p class="price">£ 15.00</p>
+				</div>
+				<div class="abs">
+					<a href="#"><i class="fas fa-link"></i></a>
+					<a href="#"><i class="fas fa-shopping-basket"></i></a>
+				</div>
+			</div>
+		</div>
+
+		<div class="sale-event">
+			<img src="photos/garden-store/showcase.png" alt="showcase">
+			<div class="r-content">
+				<p>From 3 to 13 December</p>
+				<h3>Garden Tools Sale Event</h3>
+				<a href="#">Shop Now</a>
+			</div>
+		</div>
+	</div>
+</article>
+
+<article class="join-us">
+	<div class="costumers">
+		<h2>Customer Says</h2>
+		<p>Testimonial</p>
+		<div class="costumers">
+			<div class="whiten">
+				<p>When you are a lover of astronomy, the confusion between astronomy and astrology by those who don’t really understand the differences can get pretty aggravating. And in the early, the two disciplines were not separate.</p>
+				<h3>Franky PP</h3>
+				<img src="photos/costumers/frenky.jpg" alt="frenky">
+			</div>
+			<div class="active">
+				<p>I am particularly grateful to the entire Trafficking in Persons team who stood up a few moments ago. I’m grateful to Kari Johnstone, who has been the acting director, and Sarah Sewall, who has overall supervisory responsibilities for this task and Sarah Sewall.</p>
+				<h3>An Jennifer</h3>
+				<img src="photos/costumers/an.jpg" alt="an">
+			</div>
+			<div class="whiten">
+				<p>You might remember the Dell computer commercials in which a youth reports this exciting news to his friends that they are on about to get their new computer by telling them, “Dude, you’re getting a Dell!” It was a cute series but it reflects the excitement.</p>
+				<h3>David Thomson</h3>
+				<img src="photos/costumers/david.jpg" alt="david">
+			</div>
+			<div>
+				<p>You should be able to find several indispensable facts about After-Before Breast Enhancement in the following paragraphs. If there’s at least one fact you didn’t know before, imagine the difference it might make. For a woman who is contemplating.</p>
+				<h3>Tristan Vinci</h3>
+				<img src="photos/costumers/tristan.jpg" alt="tristan">
+			</div>
+		</div>
+	</div>
+	<div class="start-project">
+		<form>
+			<fieldset>
+				<legend>Start Your Project</legend>
+				<h2>Start Your Project Now</h2>
+				<p>Get A Quote</p>
+				<p><label for="name">Your Name</label><label for="phone">Your Phone</label></p>
+				<p><input type="text" name="name" id="name"><input type="text" name="phone" id="phone"></p>
+				<p><label for="email">Your Email</label><label for="service">Choose Your Service</label></p>
+				<p><input type="email" name="email" id="email">
+					<select name="service" id="service">
+						<option>Gardening</option>
+						<option>Lawn Service</option>
+						<option>Cutting Grass</option>
+						<option>Landscape Design</option>
+					</select>
+				</p>
+				<p><label for="adress">Your Address</label></p>
+				<p><input type="text" name="adress" id="adress"></p>
+				<p><label for="message">Message</label></p>
+				<p><textarea rows="10" cols="50"  name="message" id="message"></textarea></p>
+				<p><input type="submit" name="submit" value="Send"></p>
+			</fieldset>
+		</form>
+		<img src="photos/start-project-showcase.png" alt="showcase">
+	</div>
+</article>
+
+<article class="meet-gardeners">
+	<header>
+		<h2>Meet Our Gardener</h2>
+		<h3>Team Member</h3>
+	</header>
+	<div class="gardeners">
+		<div class="laura">
+			<img src="photos/gardeners/laura.jpg" alt="laura">
+			<div class="gardener-info">
+				<h4>Laura Keith</h4>
+				<h5>Senior Gardener</h5>
+				<div class="socials">
+					<span class="facebook-sign soc-sign"></span>
+					<span class="twitter-sign soc-sign"></span>
+					<span class="pinterest-sign soc-sign"></span>
+					<span class="google-plus-sign soc-sign"></span>
+				</div>
+			</div>
+		</div>
+		<div class="ben">
+			<img src="photos/gardeners/laura.jpg" alt="ben">
+			<div class="gardener-info">
+				<h4>Laura Keith</h4>
+				<h5>Senior Gardener</h5>
+				<div class="socials">
+					<span class="facebook-sign soc-sign"></span>
+					<span class="twitter-sign soc-sign"></span>
+					<span class="pinterest-sign soc-sign"></span>
+					<span class="google-plus-sign soc-sign"></span>
+				</div>
+			</div>
+		</div>
+		<div class="david">
+			<img src="photos/gardeners/david.jpg" alt="david">
+			<div class="gardener-info">
+				<h4>Laura Keith</h4>
+				<h5>Senior Gardener</h5>
+				<div class="socials">
+					<span class="facebook-sign soc-sign"></span>
+					<span class="twitter-sign soc-sign"></span>
+					<span class="pinterest-sign soc-sign"></span>
+					<span class="google-plus-sign soc-sign"></span>
+				</div>
+			</div>
+		</div>
+		<div class="mary">
+			<img src="photos/gardeners/mary.jpg" alt="mary">
+			<div class="gardener-info">
+				<h4>Laura Keith</h4>
+				<h5>Senior Gardener</h5>
+				<div class="socials">
+					<span class="facebook-sign soc-sign"></span>
+					<span class="twitter-sign soc-sign"></span>
+					<span class="pinterest-sign soc-sign"></span>
+					<span class="google-plus-sign soc-sign"></span>
+				</div>
+			</div>
+		</div>
+	</div>
+	<a href="#">View More Gardeners</a>
+</article>
+
+<article class="design">
+	<div class="logos">
+		<a href="#"><img src="images/logos/garden-services.png" alt="Garden Services"></a>
+		<a href="#"><img src="images/logos/goddess-garden.png" alt="Goddess Garden"></a>
+		<a href="#"><img src="images/logos/melosa-garden.png" alt="Melosa Garden"></a>
+		<a href="#"><img src="images/logos/mintleaf.png" alt="Mintleaf"></a>
+	</div>	
+	<div class="buy-theme">
+		<h2>Make Your Gardening Website Be Professional And Beautiful Just For 12$</h2>
+		<a href="#">Buy Theme Now</a>
+	</div>
+</article>
+
+<article class="latest-blog">
+	<header>
+		<h2>Latest Garden Blog</h2>
+		<h3>Feature News</h3>
+	</header>	
+	<div class="blogs">
+		<div class="blog1">
+			<img src="photos/blogs/blog1.jpg" alt="blog1">
+			<div class="blog-data">
+			<p><a href="#"><i class="fas fa-calendar-alt"></i>Nov 20, 2016</a></p>
+			<p><a href="#"><i class="fas fa-user"></i>Elizabeth</a></p>
+			</div>
+			<h4>The Gardener’s A-Z Guide To Growing Organic Food</h4>
+			<p>Having a baby can be a nerve wracking experience for new parents – not the nine months of pregnancy, I’m talking about after the infant is brought home from the [...]</p>
+			<a href="#">Read More</a>
+			<hr>
+		</div>
+		<div class="blog2">
+			<img src="photos/blogs/blog2.jpg" alt="blog2">
+			<div class="blog-data">
+			<p><a href="#"><i class="fas fa-calendar-alt"></i>Nov 20, 2016</a></p>
+			<p><a href="#"><i class="fas fa-user"></i>Elizabeth</a></p>
+			</div>
+			<h4>The Gardener’s A-Z Guide To Growing Organic Food</h4>
+			<p>Having a baby can be a nerve wracking experience for new parents – not the nine months of pregnancy, I’m talking about after the infant is brought home from the [...]</p>
+			<a href="#">Read More</a>
+			<hr>
+		</div>
+	</div>
+</article>
+
+</main>
+
+<footer>
+
+	<div class="footer-top">
+		<div class="footer-top-content">
+			<i class="fas fa-phone-volume"></i>
+			<div class="call-number">
+				<h2>Live Help Number (24/24): 06.5490732 Or 06.5490741</h2>
+				<p>Call Us Now When You Have Any Gardening Question.</p>
+			</div>
+			<div class="cta-btn contact-us">
+				<a href="#">Contact Us</a>
+			</div>
+		</div>
+	</div>
+
+	<div class="footer-bottom">
+		<div class="ggn-wrapper">
+			<div class="ggn-grass">
+				<a href="#"><img src="icons/grassy-logo.png" alt="Grassy Logo"></a>
+				<p>
+					We are the professional gardening company to make your garden more beautiful and have the fresh air. We have more service for your choice. <br> If there’s at least one fact you didn’t know before, imagine the difference it might make. For a woman who is secret top breast enlargement.
+				</p>
+			</div>
+			<div class="ggn-gallery">
+				<h2>Gallery</h2>
+				<div class="ggn-gallery-images">
+					<img src="images/footer-gallery/blog-1.jpg" alt="Blog 1">
+					<img src="images/footer-gallery/blog-2.jpg" alt="Blog 2">
+					<img src="images/footer-gallery/blog-3.jpg" alt="Blog 3">
+					<img src="images/footer-gallery/blog-4.jpg" alt="Blog 4">
+					<img src="images/footer-gallery/blog-5.jpg" alt="Blog 5">
+					<img src="images/footer-gallery/blog-6.jpg" alt="Blog 6">
+					<img src="images/footer-gallery/blog-7.jpg" alt="Blog 7">
+					<img src="images/footer-gallery/blog-8.jpg" alt="Blog 8">
+				</div>
+			</div>
+			<div class="newsletter">
+				<h2>Newsletter</h2>
+				<p>Send us message when you have any question about garden project or plant decoration.</p>
+				<form class="newsletter-form">
+					<fieldset>
+						<legend>Mail-Us</legend>
+						<label for="email-us"></label>
+						<input type="email" name="email-us" id="email-us" placeholder="Your-Email">
+						<i class="fas fa-arrow-right"></i>
+					</fieldset>					
+				</form>
+				<div class="socials">
+					<span class="facebook-sign soc-sign"></span>
+					<span class="twitter-sign soc-sign"></span>
+					<span class="pinterest-sign soc-sign"></span>
+					<span class="google-plus-sign soc-sign"></span>
+				</div>
+			</div>
+		</div>
+		<div class="contact-box">
+			<div class="contsact-box-location">
+				<p class="blacken"><i class="fas fa-map-marker-alt"></i>Our Location</p>
+				<p class="whiten">20 - 21 Grean Farm, New Zealand</p>
+			</div>
+			<div class="contact-box-phone">
+				<p class="blacken"><i class="fas fa-phone"></i>Phone Number</p>
+				<p class="whiten">06.1234567 - 06.888888</p>
+			</div>
+			<div class="contact-box-mail">
+				<p class="blacken"><i class="fas fa-envelope"></i> Contact Email</p>
+				<p class="whiten">grass@example.com - hello@example.com</p>
+			</div>
+		</div>
+		<p class="footer-end">Made With <i class="fas fa-heart"></i> By Demo Lomsadze 2019. By following themeforest.net</p>
+	</div>
+	
+</footer>
+
+<!-- <script>
+	$(document).ready(function (){
+	            $("#toc-elements").click(function (){
+	                $('html, body').animate({
+	                    scrollTop: $("#elements").offset().top
+	                }, 1000);
+	            });
+	        });
+</script> -->
+
+</body>
+</html>

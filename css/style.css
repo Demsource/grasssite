@@ -1,0 +1,508 @@
+
+/*colors
+ text gray : #616161;
+ bg gray: #2c2c2c;
+ text green color : #6eb804;
+ search backgournd black : #2C2C2C;
+*/
+
+/*fonts*/
+@font-face {
+	font-family: "Perfectly Scratchy";
+	src: url("../fonts/perfectly-scratchy.otf");
+}
+/*end of fonts*/
+
+/*resets*/
+html, body {
+	height: 100%;
+	width: 100%;
+}
+html, body, h1, h2, h3 ,h4, h5, p, ul, li, form, fieldset, legend, label, form, fieldset, legend, label, input, figure, figcaption {
+	margin: 0;
+	padding: 0;
+}
+a {
+	color: black;
+	text-decoration: none;
+}
+* {
+	box-sizing: border-box;
+}
+/*end of resets*/
+
+/*commons*/
+.d-topbar ul,
+.d-nav ul,
+.our-project .categories,
+.topbar-account .my-account,
+.topbar-account .topbar-account-dropdown {
+	list-style-type: none;
+}
+.d-topbar,
+.d-topbar .wrapper,
+.topbar-social,
+.topbar-location,
+.topbar-worktime,
+.d-nav,
+.d-nav .wrapper,
+.d-nav .navigation,
+.d-nav .search .search-icon,
+.welcome-info,
+.main-slider,
+.main-slider .call-to-action,
+.welcome-info,
+.welcome-info .wrapper,
+.welcome-info .grass-owner-info,
+.welcome-info .socials,
+.our-project,
+.our-project .categories-wrapper,
+.our-project .categories-wrapper ul,
+.our-project .figures,
+.our-project .item:hover figcaption,
+.our-project .full-project,
+.garden-store,
+.garden-store .garden-products,
+.garden-store .g-product .abs,
+.garden-store .g-product:hover .abs,
+.garden-store .sale-event 
+{
+	display: flex;
+}
+.our-project figcaption
+{
+	justify-content: center;
+}
+.our-project figcaption
+{
+	align-items: center;
+}
+.our-project figcaption
+{
+	display: none;
+}
+.d-topbar .wrapper,
+.d-topbar .wrapper a {
+	color: #616161;
+}
+img {
+	display: block;
+	width: 100%;
+	height: auto;
+}
+/*end of commons*/
+
+/*DOCUMENT STRUCTURE*/
+
+/*document topbar*/
+
+.d-topbar {
+	justify-content: center;
+	/*background-color: lightblue;*/
+	padding-bottom: 40px;
+}
+.d-topbar .wrapper {
+	align-items: center;
+	/*background-color: yellow;*/
+	font-weight: bold;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	width: 1140px;
+}
+.d-topbar .wrapper i {
+	margin-right: 5px;
+}
+.d-topbar .live-help {
+	font-size: 20px;
+}
+.d-topbar .live-help strong {
+	text-transform: uppercase;
+}
+.d-topbar .live-help .code {
+	color: #6eb804;
+}
+.topbar-social {
+	margin-left: auto;
+}
+.topbar-location,
+.topbar-worktime {
+	align-items: center;
+}
+.topbar-location::after,
+.topbar-worktime::after {
+	background-color: #616161;
+	content: "";
+	height: 15px;
+	margin: 0 10px;
+	width: 2px;
+}
+.topbar-account .topbar-account-dropdown {
+	display: none;
+}
+.d-nav .navigation ul ul {
+	display: none;
+}
+
+.d-nav {
+	justify-content: center;
+}
+.d-nav .wrapper {
+	align-items: center;
+	background-color: #6eb804;
+	margin-top: -30px;
+	width: 1140px;
+}
+.d-nav .wrapper .nav-logo {
+	margin: 20px 0px 20px 50px;
+}
+.d-nav .navigation {
+	margin-left: auto;
+}
+.d-nav .navigation >ul li {
+	margin-right: 40px;
+	text-transform: uppercase;
+}
+.d-nav .navigation >ul li a {
+	color: white;
+	font-weight: bold;
+}
+.d-nav .search form {
+	display: none;
+}
+.d-nav .search .search-icon {
+	align-items: center;
+	justify-content: center;
+	background-color: #2C2C2C;
+	color: white;
+	height: 80px;
+	width: 80px;
+}
+.d-nav .search .fa-search {
+	font-size: 25px;
+}
+
+.d-nav .search fieldset {
+	border: none;
+}
+.d-nav .search legend,
+.d-nav .search label {
+	display: none;
+}
+
+/* end of document topbar*/
+
+/*--------------------------------------------------------*/
+
+/*main slider*/
+
+.main-slider {
+	align-items: center;
+	background-image: url("../photos/hedge-pruning1.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	color: white;
+	margin-top: -40px;
+	margin-bottom: 100px;
+	min-height: 842px;
+	justify-content: center;
+}
+.main-slider .wrapper {
+	width: 1140px;
+}
+.main-slider .p-first {
+	font-size: 30px;
+	font-weight: bold;
+}
+.main-slider h1 {
+	font-family: "Perfectly Scratchy";
+	font-size: 55px;
+	text-transform: uppercase;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+.main-slider .p-second {
+	font-size: 20px;
+	font-weight: bold;
+}
+.main-slider .call-to-action {
+	margin-top: 25px;
+}
+.main-slider .call-to-action a {
+	color: #fff;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+.main-slider .read-more {
+	background-color: #6eb804;
+	margin-right: 10px;
+	padding: 10px 30px;
+}
+.main-slider .contact-us {
+	border: 1px solid white;
+	padding: 10px 30px;
+}
+
+/*end of main slider*/
+
+/*--------------------------------------------------------*/
+
+/*welcome info*/
+.welcome-info {
+	justify-content: center;
+	margin-bottom: 50px;
+}
+.welcome-info .wrapper {
+	width: 1140px;
+}
+.welcome-info .grass-owner{
+	width: 1000px;
+}
+
+.welcome-info .grass-owner-info {
+	align-items: center;
+	background-color: #6eb804;
+	flex-direction: column;
+	outline: 2px solid rgba(255,255,255,.2);
+	outline-offset: -10px;
+	padding: 20px 20px;
+}
+.welcome-info .grass-owner-info h2,
+.welcome-info .grass-owner-info h3 {
+	color: white;
+	padding: 5px;
+}
+.welcome-info .grass-owner-info p {
+	text-align: center;
+	margin: 10px;
+}
+.welcome-info .socials {
+	margin: 10px;
+	justify-content: center;
+}
+
+.welcome-info .content {
+	margin-left: 30px;
+}
+.welcome-info .content header h2 {
+	font-size: 30px;
+	margin-top: 100px;
+	text-transform: uppercase;
+}
+.welcome-info .content header h3 {
+	font-size: 25px;
+}
+.welcome-info .content header p {
+	color: #616161;
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+.welcome-info .service-binder {
+	width: 362px;
+	height: auto;
+}
+.welcome-info .service-binder .service-img {
+	width: 362px;
+}
+.welcome-info .service-binder img {
+	display: block;
+	width: 100%;
+	height: auto;
+}
+.welcome-info .service-binder h3 {
+	font-size: 25px;
+	margin-top: 20px;
+}
+.welcome-info .service-binder p {
+	font-size: 20px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+.welcome-info .read-more {
+	display: inline-block;
+	font-weight: bold;
+	margin-top: 10px;
+	text-transform: uppercase;
+}
+/* end of welcome info
+
+/*--------------------------------------------------------*/
+
+/*our project*/
+
+.our-project {
+	justify-content: center;
+	background-color: #2c2c2c;
+}
+.our-project .wrapper {
+	width: 1140px; 
+	margin-top: 100px;
+	margin-bottom: 70px;
+}
+.our-project header h2 {
+	color: white;
+	font-size: 30px;
+	text-align: center;
+	text-transform: uppercase;
+}
+.our-project header h3 {
+	color: white;
+	font-size: 20px;
+	margin-bottom: 50px;
+	text-align: center;
+}
+.our-project .categories-wrapper {
+	justify-content: center;
+}
+.our-project ul {
+	margin-bottom: 50px;
+}
+.our-project ul li {
+	margin-left: 50px;
+}
+.our-project ul a {
+	color: #616161;
+	font-size: 18px;
+}
+.our-project .categories-wrapper .active-project-work {
+	color: #6eb804;
+}
+.our-project .category {
+	display: none;
+}
+.our-project .active {
+	display: block;
+}
+.our-project .figures {
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+.our-project .item {
+	cursor: pointer;
+	margin-bottom: 20px;
+	width: 32.2%;
+}
+.our-project figure img {
+	position: relative;
+}
+.our-project figcaption {
+	background-color: rgba(0,0,0, 0.5);
+	color: white;
+	font-size: 20px;
+	font-weight: bold;
+	position: absolute;
+	transform: translate(2.5%, -103%);
+	height: 260px;
+	width: 350px;
+}
+.our-project .full-project {
+	justify-content: center;
+	margin-top: 30px;
+}
+.our-project .full-project a {
+	background-color: #6eb804;
+	color: white;
+	font-weight: bold;
+	text-transform: uppercase;
+	padding: 10px 20px;
+}
+/* end of our project
+
+/*--------------------------------------------------------*/
+
+/*garden-store*/
+
+.garden-store {
+	justify-content: center;
+}
+.garden-store .wrapper {
+	margin-top: 100px;
+	width: 1140px; 
+}
+.garden-store header {
+	margin-bottom: 50px;
+}
+.garden-store header h2,
+.garden-store header h3 {
+	text-align: center;
+}
+.garden-store header h2 {
+	font-size: 30px;
+	text-transform: uppercase;
+}
+.garden-store .garden-products {
+	justify-content: space-between;
+}
+.garden-store .g-product {
+	width: 23%;
+	position: relative;
+}
+.garden-store .g-product .content {
+	background-color: #F6F6F6;
+	height: 100%;
+}
+.garden-store .g-product .content .price {
+	padding-bottom: 20px;	
+}
+.garden-store .g-product:hover .abs{
+	align-items: center;
+	justify-content: center;
+}
+.garden-store .g-product .abs {
+	display: none;
+	align-items: center;
+	border: 3px solid #6eb804;
+	background-color: rgba(255,255,255, 0.5);
+	justify-content: center;
+	pointer-events: none;
+	position: absolute;
+	right: 0%;
+	top: 0%;
+	width: 100%;
+	height: 100%;
+}
+.garden-store .g-product .abs a {
+	background-color: gray;
+	color: white;
+	margin-right: 5px;
+	padding: 5px;
+	pointer-events: auto;
+}
+.garden-store .g-product .abs a:hover {
+	background-color: #6eb804;
+}
+.garden-store .g-product .abs:hover {
+	border: none;
+}
+.garden-store .g-product figcaption,
+.garden-store .g-product p{
+	text-align: center;
+}
+.garden-store .price {
+	color: #6eb804;
+	font-weight: bold;
+}
+
+.garden-store .sale-event {
+	height: 250px;
+	background-image: url(../photos/garden-store/bg.jpg);
+	background-repeat: no-repeat;
+	background-position: bottom center;
+	margin-top: 100px;
+}
+.garden-store .sale-event img {
+	/*margin-top: -30px;*/
+	width: 25%;
+}
+.garden-store .r-content {
+	padding-top: 70px;
+	padding-left: 250px;
+}
+.garden-store .sale-event p,
+.garden-store .sale-event a {
+	color: white;
+}
+.garden-store .sale-event h3 {
+	color: white;
+	font-weight: bold;
+	text-transform: uppercase;
+}

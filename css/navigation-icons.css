@@ -1,0 +1,21 @@
+#elements li {
+	display: flex;
+}
+.element-icon {
+	display: block;
+	background-image: url(../icons/3icon.png);
+	/*background-size: 50%;*/
+	/*background-color: green;*/
+	background-repeat: no-repeat;
+	height: 50px;
+	width: 50px;
+}
+.icon-user{
+	background-position: 0px 0px;
+}
+.icon-arrow-r{
+	background-position: 0px -50px;
+}
+.icon-arrows{
+	background-position: 0px -100px;
+}
